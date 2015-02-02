@@ -1,0 +1,14 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Wrapper, Version=0.0.*, Culture=Langue indifférente (Pays indifférent): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Wrapper.WrapperAlgo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Algo* algo : Public
+  Methods:
+    buildMap(Int32): PrivateScope, Public, HideBySig
+    placingPlayer(Int32): PrivateScope, Public, HideBySig
+    possibleTile(Int32, Int32, Int32, Int32, Int32**, Double): PrivateScope, Public, HideBySig
+    possible(Int32, Int32, Int32, Int32, Int32[][], Double): PrivateScope, Public, HideBySig

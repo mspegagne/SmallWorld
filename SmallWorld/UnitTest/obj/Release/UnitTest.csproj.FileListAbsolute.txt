@@ -1,0 +1,9 @@
+C:\Users\Mathieu\Desktop\SmallWorld\UnitTest\obj\Release\UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Mathieu\Desktop\SmallWorld\UnitTest\bin\Release\UnitTest.dll
+C:\Users\Mathieu\Desktop\SmallWorld\UnitTest\bin\Release\UnitTest.pdb
+C:\Users\Mathieu\Desktop\SmallWorld\UnitTest\bin\Release\Model.dll
+C:\Users\Mathieu\Desktop\SmallWorld\UnitTest\bin\Release\Wrapper.dll
+C:\Users\Mathieu\Desktop\SmallWorld\UnitTest\bin\Release\Model.pdb
+C:\Users\Mathieu\Desktop\SmallWorld\UnitTest\bin\Release\Wrapper.pdb
+C:\Users\Mathieu\Desktop\SmallWorld\UnitTest\obj\Release\UnitTest.dll
+C:\Users\Mathieu\Desktop\SmallWorld\UnitTest\obj\Release\UnitTest.pdb

@@ -1,0 +1,19 @@
+A été fait :
+
+*Génération partie
+*Generation carte avec case disposée aléatoirement (fonctionnel depuis la démonstration)
+*Selection case
+*Gestion de la partie avec score -> calcul du gagnant
+*Algo de calcul des cases possibles pour une unité donnée
+
+
+A faire :
+*Gestion des combats
+*Déplacement
+*Gestion du clavier
+*Sauvegarde et chargement de partie
+
+Il est possible que le .exe généré dans Release crash, le cas échéant l'éxecuter à partir de VS.
+
+SPEGAGNE Mathieu
+MILLET Delphine

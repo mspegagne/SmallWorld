@@ -1,0 +1,7 @@
+C:\Users\Mathieu\Desktop\SmallWorld\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+C:\Users\Mathieu\Desktop\SmallWorld\Model\bin\Release\Model.dll
+C:\Users\Mathieu\Desktop\SmallWorld\Model\bin\Release\Model.pdb
+C:\Users\Mathieu\Desktop\SmallWorld\Model\bin\Release\Wrapper.dll
+C:\Users\Mathieu\Desktop\SmallWorld\Model\bin\Release\Wrapper.pdb
+C:\Users\Mathieu\Desktop\SmallWorld\Model\obj\Release\Model.dll
+C:\Users\Mathieu\Desktop\SmallWorld\Model\obj\Release\Model.pdb

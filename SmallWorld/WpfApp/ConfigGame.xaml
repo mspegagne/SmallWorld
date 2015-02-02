@@ -1,0 +1,93 @@
+﻿<Window x:Class="WpfApp.ConfigPartie"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ConfigJoueur" Height="700" Width="1250">
+    <Grid >
+        <Grid.Background>
+            <ImageBrush ImageSource="/Resources/bg_sans.jpg"/>
+        </Grid.Background>
+
+        <TextBlock Height="60" HorizontalAlignment="Center" FontFamily="Ringbearer Moyen" FontSize="30" Foreground="Black" Margin="416,35,420.984,578.508"> Configuration de la partie</TextBlock>
+
+        <GroupBox Name="Fieldset1" Margin="81,100,663.984,313.508"  BorderThickness="0" >
+            <StackPanel>
+                <TextBlock HorizontalAlignment="Center" Foreground="Black" Margin="195,20,195,0">Joueur 1</TextBlock>
+                <WrapPanel>
+                    <TextBlock Margin="10,25,0,0" Foreground="Black"> <Run Text="Nom :"/></TextBlock>
+                    <TextBox  x:Name="pseudoJ1"  Margin="5,15,0,0" Height="35" Width="180" Text="player 1"  />
+                </WrapPanel>
+            </StackPanel>
+        </GroupBox>
+
+        <Rectangle Margin="319,231,813.984,325.508" Name="ElfJ1" MouseLeftButtonDown="ChoixElfJ1" Cursor="Hand" ToolTipService.ShowDuration="60000">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Resources/p_elf.png" />
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle Margin="454,231,682.984,325.508" Name="HumanJ1" MouseLeftButtonDown="ChoixHumanJ1" Cursor="Hand" ToolTipService.ShowDuration="60000">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Resources/p_human.png" />
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle Margin="102,243,1036.984,313.508" Name="DwarfJ1" MouseLeftButtonDown="ChoixDwarfJ1" Cursor="Hand" ToolTipService.ShowDuration="60000">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Resources/p_dwarf.png" />
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle Margin="208,231,930.984,325.508" Name="OrcJ1" MouseLeftButtonDown="ChoixOrcJ1" Cursor="Hand" ToolTipService.ShowDuration="60000">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Resources/p_orc.png" />
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <GroupBox Name="Fieldset2"  Margin="683,100,61.984,313.508"  BorderThickness="0">
+            <StackPanel>
+                <TextBlock HorizontalAlignment="Center" Foreground="Black" Margin="193,20,193,0"><Run Text="Joueur 2"/></TextBlock>
+                <WrapPanel>
+                    <TextBlock Margin="10,25,0,0" Foreground="Black"><Run Text="Nom :"/></TextBlock>
+                    <TextBox  x:Name="pseudoJ2"  Margin="5,15,0,0" Height="35" Width="180" Text="player 2" />
+                </WrapPanel>
+            </StackPanel>
+        </GroupBox>
+
+        <Rectangle Margin="932,231,199.984,325.508" Name="ElfJ2" MouseLeftButtonDown="ChoixElfJ2" Cursor="Hand"  ToolTipService.ShowDuration="60000">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Resources/p_elf.png" />
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle Margin="702,243,421.984,313.508" Name="DwarfJ2" MouseLeftButtonDown="ChoixDwarfJ2" Cursor="Hand" ToolTipService.ShowDuration="60000">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Resources/p_dwarf.png" />
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle Margin="823,231,317.984,325.508" Name="OrcJ2" MouseLeftButtonDown="ChoixOrcJ2" Cursor="Hand" ToolTipService.ShowDuration="60000" RenderTransformOrigin="0.566,0.518">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Resources/p_orc.png" />
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle Margin="1063,231,81.984,325.508" Name="HumanJ2" MouseLeftButtonDown="ChoixHumanJ2" Cursor="Hand" ToolTipService.ShowDuration="60000">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Resources/p_human.png" />
+            </Rectangle.Fill>
+        </Rectangle>
+        <DockPanel Margin="134,200,105.984,-0.492">
+            <GroupBox Width="300" Header="" BorderThickness="0" Name="demo" Cursor="Hand" MouseLeftButtonDown="ChoixDemoCarte" Height="90">
+                <TextBlock  HorizontalAlignment="Center" Foreground="Black" Width="290" Margin="0,0,-2,-0.178"><Run Text="Démo"/></TextBlock>
+            </GroupBox >
+            <GroupBox Width="300" Margin="50,0,50,0" Header="" BorderThickness="0" Name="petite" Cursor="Hand" MouseLeftButtonDown="ChoixPetiteCarte" Height="90">
+                <TextBlock  HorizontalAlignment="Center" Foreground="Black" Width="290" Margin="0,0,-2,-0.178"><Run Text="Petite"/></TextBlock>
+            </GroupBox>
+            <GroupBox Width="300" Header="" BorderThickness="0"  Name="normale" Cursor="Hand" MouseLeftButtonDown="ChoixNormaleCarte" Height="90">
+                <TextBlock  HorizontalAlignment="Center" Foreground="Black" Width="290" Margin="0,0,-2,-0.178"><Run Text="Normale"/></TextBlock>
+            </GroupBox>
+        </DockPanel>
+        <Button Content="Valider" Cursor="Hand" Width="200" Height="50" Click="Valider"  Margin="531,580,511,40" />
+
+    </Grid>
+</Window>

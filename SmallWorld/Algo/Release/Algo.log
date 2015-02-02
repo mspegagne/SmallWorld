@@ -1,0 +1,4 @@
+﻿  Algo.cpp
+Algo.cpp(35): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+Algo.cpp(96): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  Algo.vcxproj -> C:\Users\Mathieu\Desktop\SmallWorld\Release\Algo.lib

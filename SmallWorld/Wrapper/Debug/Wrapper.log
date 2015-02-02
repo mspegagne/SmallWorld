@@ -1,0 +1,3 @@
+﻿  Wrapper.cpp
+Algo.lib(Algo.obj) : warning LNK4075: ' /EDITANDCONTINUE' ignorÚ Ó cause de la spÚcification '/OPT:LBR'
+  Wrapper.vcxproj -> C:\Users\Mathieu\Desktop\SmallWorld\Debug\Wrapper.dll
